@@ -1,0 +1,92 @@
+/* ===== PAGE STYLE ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+/* ===== GAME CONTAINER ===== */
+.game-container {
+    text-align: center;
+    width: 400px;
+    padding: 25px;
+
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+
+    border-radius: 15px;
+    border: 1px solid rgba(255,255,255,0.2);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+/* RGB text */
+h2 {
+    margin: 10px 0;
+}
+
+/* ===== OPTIONS GRID ===== */
+.options {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+/* Colour boxes */
+.color-box {
+    height: 80px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: 0.3s;
+    border: 2px solid transparent;
+}
+
+/* Hover effect */
+.color-box:hover {
+    transform: scale(1.05);
+    border-color: white;
+}
+
+/* Message feedback */
+#message {
+    height: 20px;
+    font-weight: bold;
+}
+
+/* Hidden class */
+.hidden {
+    display: none;
+}
+
+/* Game over screen */
+#gameOver {
+    margin-top: 20px;
+}
+
+/* Button */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+
+    background: #3b82f6;
+    color: white;
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #2563eb;
+    transform: scale(1.05);
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: left; /* aligns everything left */
+}
+
+/* TITLE */
+h1 {
+    color: #2c3e50;
+}
+
+/* IMAGE BLOCK */
+.image-block {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+/* IMAGE */
+img {
+    display: block;
+    width: 400px;
+    height: auto;
+
+    /* CSS filters */
+    filter: brightness(90%) contrast(110%) saturate(120%);
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+img:hover {
+    filter: brightness(110%) contrast(120%);
+}
+
+/* LICENSE TEXT */
+.license {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+}

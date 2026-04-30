@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alan Partridge Soundboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <h1>Alan Partridge Soundboard</h1>
+</header>
+
+<main class="container">
+
+  <!-- LEFT: Soundboard -->
+  <section class="soundboard">
+
+    <!-- Navigation arrows -->
+    <div class="nav">
+      <button id="prev">⬅</button>
+      <button id="next">➡</button>
+    </div>
+
+    <div class="grid" id="grid"></div>
+
+  </section>
+
+  <!-- RIGHT: Text to Speech -->
+  <section class="tts">
+    <h2>Text to Speech</h2>
+
+    <textarea id="ttsText" placeholder="Type something..."></textarea>
+    <button id="speak">Speak</button>
+  </section>
+
+</main>
+
+<script src="index.js"></script>
+
+</body>
+</html>

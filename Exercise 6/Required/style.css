@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+
+    background: radial-gradient(circle at top, #1e293b, #0f172a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    width: 420px;
+    padding: 40px;
+
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 20px;
+
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ===== TITLE ===== */
+h1 {
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+/* ===== LABELS ===== */
+label {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* ===== INPUTS ===== */
+input {
+    width: 100%;
+    padding: 12px;
+
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+
+    outline: none;
+
+    transition: 0.3s;
+}
+
+/* focus effect */
+input:focus {
+    border-color: #38bdf8;
+    box-shadow: 0 0 12px rgba(56, 189, 248, 0.4);
+    transform: scale(1.02);
+}
+
+/* ===== BUTTON ===== */
+button {
+    margin-top: 10px;
+    padding: 12px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(59, 130, 246, 0.4);
+}
+
+.result {
+    margin-top: 15px;
+    padding: 15px;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
