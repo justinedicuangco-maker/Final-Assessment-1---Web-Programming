@@ -1,0 +1,30 @@
+/* PAGE BACKGROUND */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0b1220, #1e293b);
+    color: #e5e7eb;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(17, 24, 39, 0.95);
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #334155;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0b1220;
+    border-top: 1px solid #334155;
+
+    margin-top: 60px;
+}
