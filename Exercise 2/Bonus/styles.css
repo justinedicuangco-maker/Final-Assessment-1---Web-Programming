@@ -1,0 +1,58 @@
+/* PAGE BACKGROUND */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ff0000, #ff0000);
+    color: #e5e7eb;
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(255, 0, 0);
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+
+    border-bottom: 2px solid white; /* 👈 this is your line */
+}
+
+/* LEFT LOGO */
+.logo {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* CENTER NAV BUTTONS */
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex: 1; /* pushes it to center */
+}
+
+/* NAV BUTTON STYLE */
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+}
+/* OPTIONAL: RIGHT SIDE SPACER (keeps perfect centering) */
+.nav-right {
+    width: 80px; /* balances layout */
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0b1220;
+    border-top: 1px solid #ff0000;
+
+    margin-top: 60px;
+}
