@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') center/cover no-repeat fixed;
+    min-height: 100vh;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.85);
+    color: #d62839;
+    font-size: 1.8rem;
+}
+
+.soundboard {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 30px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.sample-btn {
+    background: #f5f5f5;
+    border: 6px solid black;
+    border-radius: 25px;
+    padding: 35px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+    color: black;
+    box-shadow: 0 6px 0 black;
+}
+
+.sample-btn:hover {
+    background: #ef476f;
+    color: white;
+    transform: translateY(-5px);
+}
+
+.sample-number {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.sample-name {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    background-color: #000;    /* optional (looks better for video pages) */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-player {
+    width: 100%;
+    max-width: 700px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    object-fit: cover;
+    display: block;
+
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;  /* center horizontally */
+    align-items: center;      /* center vertically */
+    background-color: black;  /* optional */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-player {
+    width: 600px;     /* controls width */
+    height: auto;     /* keeps correct proportions */
+    max-width: 90%;   /* makes it responsive */
+    border-radius: 10px;
+}
+
+video {
+    border-radius: 0 !important;
+    overflow: hidden;
+}
+
+.video-player {
+    border-radius: 0 !important;
+}

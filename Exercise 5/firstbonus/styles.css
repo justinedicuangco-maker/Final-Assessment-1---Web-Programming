@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #47721e, #104704);
+  text-align: center;
+  color: white;
+}
+
+header {
+  padding: 20px;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  width: 70%;
+  margin: auto;
+  padding: 20px;
+}
+
+.sound {
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: lowercase;
+}
+
+/* Hover effect (required: background + text change) */
+.sound:hover {
+  background: black;
+  color: white;
+  transform: scale(1.05);
+}
